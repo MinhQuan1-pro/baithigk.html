@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #ffffff;
+    color: #333;
+}
+
+
+header {
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: 3px solid #3b3047;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    border-top: 5px solid #3b3047;
+    border-bottom: 10px solid #3b3047;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+.main {
+    width: 92%;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1.8fr 1.5fr 1fr;
+    gap: 25px;
+}
+
+.big-img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.big-title {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.mid-news {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.mid-news img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.lifestyle-news {
+    display: flex;
+    gap: 10px;
+}
+.lifestyle-news img {
+    width: 150px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.small-ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.small-ul li {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.vehicle-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.tabs {
+    display: flex;
+}
+.tab {
+    flex: 1;
+    text-align: center;
+    padding: 8px 0;
+    border: 1px solid #ddd;
+}
+.tab.active {
+    background: #2e60c0;
+    color: white;
+}
+.vehicle-box input {
+    margin-top: 8px;
+    width: 100%;
+    padding: 6px;
+}
+
+.side-news {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+.side-news img {
+    width: 90px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.highlight-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.edu-section {
+    width: 92%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.edu-box {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+.edu-box img {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.stock-box {
+    width: 92%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    border-left: 4px solid #4caf50;
+    background: #fff;
+}
+.green {
+    color: green;
+}
